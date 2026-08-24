@@ -18,3 +18,11 @@ My first web development project. I built this website to
 ## Reflection
 
 This is the first ever project that I've made while learning web development. Although the website itself is simple, it gave me the opportunity to turn the fundamentals I've learned into something real and tangible.
+
+## Image Credits
+
+Images sourced from Unsplash.
+
+- Fried Chicken — P Anosh
+- Pork Burger — Louis Hansel
+- Chicken Pizza — Rusu Ciprian
