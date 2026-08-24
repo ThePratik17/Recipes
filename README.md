@@ -5,7 +5,7 @@ A simple recipe website built as part of
 
 ## About
 
-My first web development project. I built this website to
+My first web development project. I built this website to put
  the HTML fundamentals I've learned so far into practice.
 
 ## Skills Demonstrated
