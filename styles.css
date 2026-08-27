@@ -1,0 +1,28 @@
+body {
+    color : #292522;
+    background-color: #F7F1E8;
+    
+}
+
+a {
+    color: #A3472F;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #FAF7F0;
+    background-color: #A3472F;
+    font-weight: bold;
+}
+
+h2 {
+    color: #6F7652;
+    font-weight: bold;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+}
