@@ -7,6 +7,8 @@ body {
 a {
     color: #A3472F;
     font-weight: bold;
+     background-color: #E8D8C3;
+     padding: 10px;
 }
 
 h1 {
@@ -14,6 +16,7 @@ h1 {
     color: #FAF7F0;
     background-color: #A3472F;
     font-weight: bold;
+     padding: 10px;
 }
 
 h2 {
