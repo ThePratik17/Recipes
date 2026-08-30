@@ -33,4 +33,5 @@ img {
     margin: 0 auto;
     width: 600px;
     height: 400px;
+    outline: 3px solid  #6F7652;
 }
