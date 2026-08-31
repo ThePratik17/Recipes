@@ -12,6 +12,7 @@ a {
     color: #A3472F;
     font-weight: bold;
     background-color: #E8D8C3;
+    display: inline-block;
     padding: 10px;
 }
 
