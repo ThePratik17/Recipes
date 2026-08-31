@@ -13,7 +13,8 @@ a {
     font-weight: bold;
     background-color: #E8D8C3;
     display: inline-block;
-    padding: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
     background-color: #A3472F;
     font-weight: bold;
     padding: 10px;
-   border: 4.5px solid #4A90E2; 
+    border: 4.5px solid #4A90E2; 
 }
 
 h2 {
@@ -35,4 +36,9 @@ img {
     width: 600px;
     height: 400px;
     outline: 3px solid  #6F7652;
+}
+span {
+    color: #6F7652;
+    font-weight: bold;
+    background-color: #C5CDB5;
 }
