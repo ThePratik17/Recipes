@@ -22,6 +22,9 @@
 .flexbox a:hover {
     transform: scale(1.05);
 }
+.flexbox a:active {
+    transform: scale(0.97);
+}
 .outline {
     outline: 2px solid #4A90E2;
 }
