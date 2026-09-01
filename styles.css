@@ -16,11 +16,11 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-
-     transition: transform 0.5s;
 }
 .flexbox a:hover {
     transform: scale(1.05);
+    background-color: #E1CCAE;
+    transition: transform 0.5s;
 }
 .flexbox a:active {
     transform: scale(0.97);
@@ -67,5 +67,10 @@ img {
 font-size: larger;
 text-align: center;
 background-color: yellowgreen;
-  padding: 10px;
+padding: 10px;
+}
+.home:hover {
+transform: scale(1.2);
+background-color: #6F7652;
+transition: transform 0.5s;
 }
