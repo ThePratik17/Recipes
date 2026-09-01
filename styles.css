@@ -16,6 +16,11 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+
+     transition: transform 0.5s;
+}
+.flexbox a:hover {
+    transform: scale(1.05);
 }
 .outline {
     outline: 2px solid #4A90E2;
@@ -55,13 +60,9 @@ img {
     height: 400px;
     outline: 3px solid  #6F7652;
 }
-span {
-    color: #6F7652;
-    font-weight: bold;
-    background-color: #C5CDB5;
-}
 .home {
-display: block;
+font-size: larger;
 text-align: center;
 background-color: yellowgreen;
+  padding: 10px;
 }
