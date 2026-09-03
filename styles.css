@@ -2,6 +2,7 @@
     display: flex;
     gap: 20px;
 }
+
 .flexbox a{
     flex: 1;
     font-size: larger;
@@ -17,6 +18,7 @@
     justify-content: center;
     text-decoration: none;
 }
+
 .flexbox a:hover {
     transform: scale(1.05);
     background-color: #E1CCAE;
@@ -24,6 +26,26 @@
 }
 .flexbox a:active {
     transform: scale(0.97);
+}
+.secret{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 80px;
+
+    margin: 30px auto;
+
+    background-color: #E8D8C3;
+    color: #A3472F;
+    font-weight: bold;
+    text-decoration: none;
+}
+.secret:hover{
+    transform: scale(1.05);
+    background-color: #E1CCAE;
+    transition: transform 0.5s;
 }
 .outline {
     outline: 2px solid #4A90E2;
@@ -70,7 +92,7 @@ background-color: yellowgreen;
 padding: 10px;
 }
 .home:hover {
-transform: scale(1.2);
+transform: scale(1.1);
 background-color: #6F7652;
 transition: transform 0.5s;
 }
