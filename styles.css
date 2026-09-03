@@ -8,21 +8,40 @@
     font-size: larger;
     display: flex;
     gap: 20px;
-    color: #A3472F;
+
+    font-size: x-large;
+    color:#4A3328;
     font-weight: bold;
     background-color: #E8D8C3;
     padding: 30px;
     height: 300px;
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+
+    transition: transform 0.5s;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 750px;
+}
+.flexbox a:nth-of-type(1) {
+    background-image: url("./images/flex-pizza.jpg");
+}
+
+.flexbox a:nth-of-type(2) {
+    background-image: url("./images/flex-momo.jpg");
+}
+
+.flexbox a:nth-of-type(3) {
+    background-image: url("./images/flex-burger.jpg");
 }
 
 .flexbox a:hover {
     transform: scale(1.05);
     background-color: #E1CCAE;
-    transition: transform 0.5s;
 }
 .flexbox a:active {
     transform: scale(0.97);
@@ -41,11 +60,12 @@
     color: #A3472F;
     font-weight: bold;
     text-decoration: none;
+
+    transition: transform 0.5s;
 }
 .secret:hover{
     transform: scale(1.05);
     background-color: #E1CCAE;
-    transition: transform 0.5s;
 }
 .outline {
     outline: 2px solid #4A90E2;
@@ -57,25 +77,21 @@ body {
     
 }
 
-a {
-    color: #A3472F;
-    font-weight: bold;
-    background-color: #E8D8C3;
-    display: inline-block;
-    padding: 30px;
-}
 
 h1 {
     text-align: center;
     color: #FAF7F0;
-    background-color: #A3472F;
+    background-color: #b83b24;
     font-weight: bold;
     padding: 10px;
     border: 4.5px solid #4A90E2; 
 }
 
 h2 {
-    color: #6F7652;
+    display: inline;
+    color:#fff8f0;
+    padding: 7px;
+    background-color: #7f8a52;
     font-weight: bold;
 }
 img {
@@ -85,14 +101,38 @@ img {
     height: 400px;
     outline: 3px solid  #6F7652;
 }
+.burger {
+    height: 500px;
+}
 .home {
 font-size: larger;
 text-align: center;
 background-color: yellowgreen;
 padding: 10px;
+
+transition: transform 0.5s;
 }
+
 .home:hover {
 transform: scale(1.1);
 background-color: #6F7652;
-transition: transform 0.5s;
+}
+
+.pizza-page {
+    background-image: url("./images/pizza-doodle.jpg");
+    background-repeat: repeat;
+    background-size: 70px;
+    background-blend-mode: multiply;
+}
+.momo-page{
+    background-image: url("./images/momo-doodle.jpg");
+    background-repeat: repeat;
+    background-size: 100px;
+    background-blend-mode: multiply;
+}
+.burger-page{
+    background-image: url("./images/burger-doodle.jpg");
+    background-repeat: repeat;
+    background-size: 120px;
+    background-blend-mode: multiply;
 }
